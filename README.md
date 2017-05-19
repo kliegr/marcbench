@@ -24,7 +24,7 @@ There are two types of benchmarks: benchmark of accuracy and rule cound ("acc") 
 
 Prerequisites include Java 8, R and  rMARC package installed in R.
 
-###Running benchmarks - WEKA
+### Running benchmarks - WEKA
 
 Weka implementations of reference algorithms  of the two benchmark suites are executed using
 ```
@@ -36,7 +36,7 @@ The output is stored into
 /result
 ```
 The won-tie-loss matrix and Wilcoxon signed rank test are executed using `wontieloss.py`
-###Running benchmarks  - MARC
+### Running benchmarks  - MARC
 MARC benchmarks are run using functions defined in  `evalMARC.R`
 The scaling benchmark is run using `doEvalTime()`.
 The default configuration for MARC One Rule is run with `doEvalAccMARCOneRule()` and for MARC Multi Rule with `doEvalAccMARCMultiRule()`.
